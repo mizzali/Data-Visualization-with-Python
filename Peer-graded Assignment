@@ -164,7 +164,7 @@ def get_graph(chart, year, children1, children2, c3, c4, c5):
             bar_fig = px.bar(bar_data, x='Month', y='Flights', color='CancellationCode', title='Monthly Flight Cancellation')
             
             # TODO5: Average flight time by reporting airline
-            line_fig = px.line(input_data, x='Month', y='AirTime', color='Reporting_Airline', title='Average monthly flight time (minutes) by airline.')
+            line_fig = px.line(input_data, x='Month', y='AirTime', color='Reporting_Airline', title='Average monthly flight time (minutes) by airline')
             
             
             # Percentage of diverted airport landings per reporting airline
